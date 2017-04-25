@@ -1,9 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open%20Sans);
+
+$mobile-only: "only screen and (max-width : 768px)";
+
 body {
   margin-bottom: 0;
-}
-@media only screen and (max-width: 768px) {
-  body {
+
+  @media #{$mobile-only} {
     margin: 0;
   }
 }
@@ -17,9 +19,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   height: 100%;
-}
-@media only screen and (max-width: 768px) {
-  #wrapper {
+
+   @media #{$mobile-only} {
     width: 100%;
     background-color: #fff;
   }
