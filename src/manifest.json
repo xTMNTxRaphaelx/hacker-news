@@ -1,0 +1,13 @@
+{
+    "name": "Angular HN",
+    "short_name": "angular hn",
+    "icons": [
+        {
+            "src": "assets/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image\/png"
+        }
+    ],
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest"
+}
